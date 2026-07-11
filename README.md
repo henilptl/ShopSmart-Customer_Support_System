@@ -2,7 +2,9 @@
 
 ### An AI assistant that reads customer complaints and instantly sends each one to the right department.
 
-Think of it as a **smart receptionist for a customer service team.** When a customer writes in, the AI reads the message, works out what it's actually about, decides how urgent it is, and hands it to the right specialist — in seconds, instead of hours.
+Think of it as a **smart receptionist for a customer service team.** When a customer writes in, the AI reads the message, works out what it's actually about, decides how urgent it is, and hands it to the right specialist. That specialist then writes the answer back to the customer, using the real company rulebook for their department.
+
+The customer gets a complete, accurate reply — in seconds, instead of waiting hours for a human.
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python">
@@ -79,7 +81,12 @@ This is the clever part. Instead of one chatbot that half-knows everything, I bu
 Only **one** expert ever wakes up per message. The other three never see it.
 
 ### 3️⃣ Write the reply
-The chosen expert writes a helpful, specific answer using its own rulebook — then the message is done.
+This is the payoff. The chosen specialist writes the actual answer — and because it's holding its own rulebook, the reply contains real facts, not guesses:s
+
+- The delivery expert looks the order up and quotes its actual status and arrival date.
+- The billing expert quotes the real 48-hour double-charge rule and the refund timeline.
+- The returns expert quotes the real return window for that product type.
+- The product expert quotes real prices, ratings, and stock levels from the catalogue.
 
 ---
 
@@ -91,6 +98,17 @@ Read it top to bottom: a message arrives, the AI classifies it, the diamond in t
 
 ---
 
+# 🗺️ OUTPUT
+
+![Output](docs/test1.png)
+
+
+![Output](docs/test2.png)
+
+
+![Output](docs/test3.png)
+
+---
 
 ## 🛠️ Skills this project demonstrates
 
