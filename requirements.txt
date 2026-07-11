@@ -1,0 +1,14 @@
+# Core LLM + orchestration stack
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+pydantic>=2.7.0
+typing-extensions>=4.9.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Notebook / graph rendering (optional — needed for notebooks/ and PNG export)
+jupyter>=1.0.0
+ipython>=8.0.0
